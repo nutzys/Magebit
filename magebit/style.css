@@ -1,0 +1,466 @@
+html{
+
+    margin: auto;
+    padding: auto;
+
+}
+
+#base {
+
+    position: absolute;
+    width: 680px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
+
+#logo {
+
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+
+}
+
+#about-link {
+
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 331px;
+    top: 114px;
+
+}
+
+#works-link {
+
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 403px;
+    top: 114px;
+
+}
+
+#contact-link {
+
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 524px;
+    top: 114px;
+
+}
+
+.item {
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+
+}
+
+.item a {
+
+    text-decoration: none;
+
+}
+
+#heading h1{
+
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 140px;
+    top: 374px;
+    font-family: Georgia;
+    font-size: 32px;
+
+}
+
+#subheading{
+
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #6A707B;
+
+}
+
+small {
+
+    visibility: hidden;
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 100px;
+    top: 620px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: red;
+
+}
+
+.input-form.error small{
+    visibility: visible;
+}
+
+#email{
+
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-left: 6px #4066A5 solid;
+    z-index: 2;
+
+}
+
+#email:hover{
+
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    border: 1px solid #4066A5;
+    border-left: 4px #4066A5 solid;
+
+}
+
+#submit {
+
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    left: 699px;
+    top: 567px;
+    border: none;
+    z-index: 2;
+    text-indent: -99999px;
+    background: url("img/arrow.png") no-repeat;
+
+}
+
+.tos-text {
+
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 181px;
+    top: 668px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+
+}
+
+.tos-text a {
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+
+}
+
+#checkbox{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 140px;
+    top: 663px;
+    background: #4066A5;
+    background-image: url("img/arrow.png");
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 26px;
+    text-align: center;
+}
+    
+#checkbox:checked{
+    background: #4066A5;
+    border-radius: 3px;
+}
+
+
+#facebook{
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 25px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    background: url(img/ic_facebook.png) center no-repeat;
+}
+
+#facebook img {
+
+    visibility: hidden;
+
+}
+
+#facebook:hover {
+
+    background: #4267B2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transform: translateY(4px);
+    border: hidden;
+}
+
+#facebook:active{
+    background: #2F4A80;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    border: hidden;
+}
+
+#facebook:hover img{
+    visibility: visible;
+    background: url("img/ic_facebook_white.png") center no-repeat;
+    transform: translateY(4px);
+
+}
+
+
+#instagram {
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 25px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    background: url(img/ic_instagram.png) center no-repeat;
+
+}
+
+#instagram:hover {
+
+    background: #C13584;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transform: translateY(4px);
+    border: hidden;
+
+}
+
+#instagram img{
+    visibility: hidden;
+}
+
+#instagram:active{
+    background: #8F2762;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    border: hidden;
+}
+
+#instagram:hover img{
+    visibility: visible;
+    background: url("img/ic_instagram_white.png") center no-repeat;
+    transform: translateY(4px);
+}
+
+#twitter {
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 25px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    background: url(img/ic_twitter.png) center no-repeat;
+
+}
+#twitter:hover img{
+
+    visibility: visible;
+    background:url("img/ic_twitter_white.png") center no-repeat;
+    transform: translateY(2px);
+
+}
+#twitter img{
+    visibility: hidden;
+}
+
+#twitter:active{
+    background: #177FBF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    border: hidden;
+}
+
+#twitter:hover{
+    background: #1DA1F2;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transform: translateY(4px);
+    border: hidden;
+}
+
+#youtube {
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+    border-radius: 25px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    background: url(img/ic_youtube.png) center no-repeat;
+
+}
+
+#youtube img{
+    visibility: hidden;
+}
+
+#youtube:hover img{
+    visibility: visible;
+    background: url("img/ic_youtube_white.png") center no-repeat;
+}
+
+#youtube:hover{
+    background: #FF0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transform: translateY(4px);
+    border: hidden;
+}
+    
+#youtube:active{
+    background: #CC0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    border: hidden;
+}
+
+.logo-border {
+
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+}
+
+
+#image {
+
+    position: absolute;
+    width: 1240px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+    background: #C4C4C4;
+    z-index: 1;
+
+}
+
+#line {
+
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+    background: #E3E3E4;
+
+}
+
+#success-icon{
+    position: absolute;
+    width: 44px;
+    height: 70px;
+    left: 140px;
+    top: 269px;
+}
+    
+#top-texts{
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 140px;
+    top: 369px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+}
+    
+#bottom-text{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 140px;
+    top: 433px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+    
+#line-success{
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 539px;
+    background: #E3E3E4;
+}
+    
+#success-page #facebook{
+    left: 218px;
+    top: 590px;
+}
+    
+#success-page #instagram{
+    left: 284px;
+    top: 590px;
+}
+    
+#success-page #twitter{
+    left: 350px;
+    top: 590px;
+}
+    
+#success-page #youtube{
+    left: 416px;
+    top: 590px;
+}
